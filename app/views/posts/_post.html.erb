@@ -1,0 +1,14 @@
+<div id="<%= dom_id post %>">
+  <p>
+    <strong><%= post.title %></strong>
+    
+  </p>
+
+  <h3>
+    
+    <%= post.content %>
+  </h3>
+ <p>
+  Posted <%= time_tag post.created_at, "data-local": "time-ago" %>
+  </p>
+</div>

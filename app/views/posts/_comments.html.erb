@@ -1,0 +1,10 @@
+<h3>comments</h3>
+
+<div id="comments">
+ <p>
+<%= pluralize post.comments.count, "comment" %>
+</p>
+<%= render post.comments %>
+
+</div>
+<%= render "comments/new", post: post %>
