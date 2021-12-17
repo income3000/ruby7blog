@@ -1,5 +1,5 @@
 <p style="color: green"><%= notice %></p>
-
+<%= link_to  "home", home_index_path %>  <%= link_to "New post", new_post_path %>
 <h1>Posts</h1>
 
   <% @posts.each do |post| %>
@@ -14,4 +14,4 @@
   <% end %>
 
 
-<%= link_to "New post", new_post_path %>
+
