@@ -15,8 +15,15 @@
  */
 .card {
     resize: both;
+    height: fit-content;
+    text-align: center;
    
 }
 .container {
-    display: inline-flex
+    display: inline-flex;
+    
+}
+.card-text {
+    text-align:center;
+    
 }
