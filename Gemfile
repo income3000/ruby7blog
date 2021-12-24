@@ -10,7 +10,7 @@ gem "rails", "~> 7.0.0"
 gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
+
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -73,4 +73,7 @@ group :test do
   gem "webdrivers"
 end
 
+group :production do
+gem "pg", "~> 1.1"
+end
 
